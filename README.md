@@ -67,5 +67,5 @@ ZEN keeps `~/Downloads` tidy. The macOS app watches for new files, proposes the 
 ---
 
 ## Credits & License
-Built by **Emile Al-Billeh** and **Layanne El Assaad**.  
+Built by **Layanne El Assaad** and **Emile Al-Billeh**.
 Licensed under **MIT** (see `LICENSE`).

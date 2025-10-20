@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Smart File Organizer",
+  "version": "1.0",
+  "description": "Capture file downloads, display their metadata, and connect to a native macOS app.",
+  "permissions": [
+      "downloads",
+      "storage",
+      "nativeMessaging"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_title": "Smart File Organizer"
+  },
+  "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+  ]
+}
